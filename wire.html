@@ -1,0 +1,84 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 400px;
+      
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black; 
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+
+                    <h2>DIO on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Sensor</th></tr>
+	            	    <tr><td>1</td><td>ArmSub armLowerLimit Input </td></tr>
+	            	    <tr><td>2</td><td>ArmSub armUpperLimit Input </td></tr>
+	            	    <tr><td>3</td><td>ShooterSub shooterCompressor Pressure Switch </td></tr>
+	            	    <tr><td>4</td><td>ArmSub pressureSwitch Input </td></tr>
+	            	    <tr><td>5</td><td>LED Digital Output 1 Output </td></tr>
+	                                    	    <tr><td>8</td><td>MechanicsAlertSystem soundSomthing Output </td></tr>
+	                                                                                                                                                     	</table>
+                
+                    <h2>PWMs on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Motor</th></tr>
+	            	    <tr><td>1</td><td>ArmSub pickUpWheelVictor Output </td></tr>
+	            	    <tr><td>2</td><td>ArmSub armVictor Output </td></tr>
+	                                                                                                                                                                                                                             	</table>
+                
+                <h2>CAN IDs</h2>
+	<table><tr>
+	<th class="pound">ID</th>
+	<th>Device</th></tr>
+	                                                                                                                                    	    <tr><td>11</td><td>DriveSub frontLeft</td></tr>
+	            	    <tr><td>12</td><td>DriveSub rearLeft</td></tr>
+	            	    <tr><td>13</td><td>DriveSub frontRight</td></tr>
+	            	    <tr><td>14</td><td>DriveSub rearRight</td></tr>
+	                                                                             	</table>
+        
+                    <h2>Relays on Digital Sidecar 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Relay</th></tr>
+	            	    <tr><td>1</td><td>ShooterSub shooterCompressor Spike </td></tr>
+	                                                                                                                                                                                                                                         	</table>
+                
+                    <h2>Analog Module 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Sensor</th></tr>
+	            	    <tr><td>1</td><td>ArmSub pneumaticsAnalogInput Input </td></tr>
+	            	    <tr><td>2</td><td>MechanicsAlertSystem soundPot Input </td></tr>
+	                                                                                                                                                                                                                             	</table>
+                    
+                    <h2>Solenoid Module 1</h2>
+	<table><tr>
+	<th class="pound">#</th>
+	<th>Solenoid</th></tr>
+	            	    <tr><td>1</td><td>ShooterSub shooterSolenoid1 Output </td></tr>
+	            	    <tr><td>2</td><td>ShooterSub shooterSolenoid2 Output </td></tr>
+	            	    <tr><td>3</td><td>ShooterSub shooterSolenoid3 Output </td></tr>
+	            	    <tr><td>4</td><td>DriveSub driveShiftDoubleSolenoid Forward </td></tr>
+	            	    <tr><td>5</td><td>DriveSub driveShiftDoubleSolenoid Reverse </td></tr>
+	                                    	    <tr><td>8</td><td>MechanicsAlertSystem sound Output </td></tr>
+	                                                                                                                                                     	</table>
+                    
+  </body>
+</html>
